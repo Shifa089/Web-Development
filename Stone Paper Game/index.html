@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shifa">
+    <link rel="stylesheet" href="style.css">
+    <title>Stone Paper</title>
+</head>
+<body>
+    <div style="background-color: black;">
+        <div class="container colour">
+            <table class="table">
+                <tr>
+                    <td><img id="rock" class="img" src="rock.png" alt="rock"></td>
+                    <td><img id="paper" class="img" src="paper.jpeg" alt="paper"></td>
+                    <td><img id="scissors" class="img" src="scissors.png" alt="scissors"></td>
+                </tr>
+    
+                <tr class="tr_text">
+                    <td><b>Rock</b></td>
+                    <td><b>Paper</b></td>
+                    <td><b>Scissors</b></td>
+                </tr>
+            </table>
+        </div>
+    
+        <br>
+        <br>
+        <br>
+    
+        <div class="container">
+            <table class="table">
+                <tr>
+                    <td style="color: white;" class="tr_text" id="your_score"><b>0</b></td>
+                    <td style="color: white;" class="tr_text" id="computer_score"><b>0</b></td>
+                </tr>
+    
+                <tr>
+                    <td class="colour" style="column-width: 100px;"><b>Your Score</b></td>
+                    <td class="colour" style="column-width: 100px;"><b>Computer Score</b></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="container">
+            <button id="btn"><b>Take your turn</b></button>
+        </div>
+        <br>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
